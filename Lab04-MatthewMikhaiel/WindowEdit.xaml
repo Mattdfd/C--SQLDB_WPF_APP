@@ -1,0 +1,50 @@
+﻿<Window x:Class="Lab04_MatthewMikhaiel.WindowEdit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab04_MatthewMikhaiel"
+        mc:Ignorable="d"
+        Title="WindowEdit" Height="450" Width="800">
+    <Grid Margin="0,0,10,-6">
+        <Label x:Name="lbl_FN" Content="First Name" HorizontalAlignment="Left" Margin="38,87,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_MN" Content="Middle Name" HorizontalAlignment="Left" Margin="38,118,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_LN" Content="Last Name" HorizontalAlignment="Left" Margin="38,149,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_title" Content="Title" HorizontalAlignment="Left" Margin="38,56,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_NS" Content="Name Style" HorizontalAlignment="Left" Margin="38,335,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_CN" Content="Company Name" HorizontalAlignment="Left" Margin="38,180,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_sales" Content="Sales Person" HorizontalAlignment="Left" Margin="38,211,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblemail" Content="Email Address" HorizontalAlignment="Left" Margin="38,242,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblphone" Content="Phone #" HorizontalAlignment="Left" Margin="38,273,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblpass" Content="Password" HorizontalAlignment="Left" Margin="38,304,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt_titlee" HorizontalAlignment="Left" Margin="155,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_FNe" HorizontalAlignment="Left" Margin="155,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_MNe" HorizontalAlignment="Left" Margin="155,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_LNe" HorizontalAlignment="Left" Margin="155,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_CNe" HorizontalAlignment="Left" Margin="155,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_salese" HorizontalAlignment="Left" Margin="155,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_Emaile" HorizontalAlignment="Left" Margin="155,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_phoneNe" HorizontalAlignment="Left" Margin="155,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_passe" HorizontalAlignment="Left" Margin="155,308,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_NameStylee" HorizontalAlignment="Left" Margin="155,339,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Address ln1" HorizontalAlignment="Left" Margin="378,69,0,0" VerticalAlignment="Top"/>
+        <Label Content="Address ln 2" HorizontalAlignment="Left" Margin="378,105,0,0" VerticalAlignment="Top"/>
+        <Label Content="City" HorizontalAlignment="Left" Margin="378,144,0,0" VerticalAlignment="Top"/>
+        <Label Content="Province" HorizontalAlignment="Left" Margin="378,175,0,0" VerticalAlignment="Top"/>
+        <Label Content="Country" HorizontalAlignment="Left" Margin="378,206,0,0" VerticalAlignment="Top"/>
+        <Label Content="Postal Code" HorizontalAlignment="Left" Margin="378,237,0,0" VerticalAlignment="Top"/>
+        <Label Content="Address Type" HorizontalAlignment="Left" Margin="378,277,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt_addy1e" HorizontalAlignment="Left" Margin="476,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_addy2e" HorizontalAlignment="Left" Margin="476,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_citye" HorizontalAlignment="Left" Margin="476,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_prove" HorizontalAlignment="Left" Margin="476,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_countrye" HorizontalAlignment="Left" Margin="476,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_postCodee" HorizontalAlignment="Left" Margin="476,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btn_edit" Content="Edit Customer" HorizontalAlignment="Left" Margin="40,380,0,0" VerticalAlignment="Top"/>
+        <Label Content="Customer ID" HorizontalAlignment="Left" Margin="38,30,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.421,0.406"/>
+        <TextBox x:Name="txt_ide" HorizontalAlignment="Left" Margin="155,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btn_find_Cust" Content="Find Customer" HorizontalAlignment="Left" Margin="303,30,0,0" VerticalAlignment="Top" Click="btn_find_Cust_Click"/>
+        <TextBox x:Name="txt_addytypeE" HorizontalAlignment="Left" Margin="476,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,49 @@
+﻿<Window x:Class="Lab04_MatthewMikhaiel.WindowAdd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab04_MatthewMikhaiel"
+        mc:Ignorable="d"
+        Title="WindowAdd" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lbl_FN" Content="First Name" HorizontalAlignment="Left" Margin="35,87,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_MN" Content="Middle Name" HorizontalAlignment="Left" Margin="35,118,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_LN" Content="Last Name" HorizontalAlignment="Left" Margin="35,149,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_title" Content="Title" HorizontalAlignment="Left" Margin="35,56,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_NS" Content="Name Style" HorizontalAlignment="Left" Margin="35,335,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_CN" Content="Company Name" HorizontalAlignment="Left" Margin="35,180,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_sales" Content="Sales Person" HorizontalAlignment="Left" Margin="35,211,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblemail" Content="Email Address" HorizontalAlignment="Left" Margin="35,247,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblphone" Content="Phone #" HorizontalAlignment="Left" Margin="35,273,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblpass" Content="Password" HorizontalAlignment="Left" Margin="35,304,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt_title" HorizontalAlignment="Left" Margin="152,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_FN" HorizontalAlignment="Left" Margin="152,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_MN" HorizontalAlignment="Left" Margin="152,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_LN" HorizontalAlignment="Left" Margin="152,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_CN" HorizontalAlignment="Left" Margin="152,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_sales" HorizontalAlignment="Left" Margin="152,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_Email" HorizontalAlignment="Left" Margin="152,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_phoneN" HorizontalAlignment="Left" Margin="152,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_pass" HorizontalAlignment="Left" Margin="152,308,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_NameStyle" HorizontalAlignment="Left" Margin="152,339,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Address ln1" HorizontalAlignment="Left" Margin="375,69,0,0" VerticalAlignment="Top"/>
+        <Label Content="Address ln 2" HorizontalAlignment="Left" Margin="375,105,0,0" VerticalAlignment="Top"/>
+        <Label Content="City" HorizontalAlignment="Left" Margin="375,144,0,0" VerticalAlignment="Top"/>
+        <Label Content="Province" HorizontalAlignment="Left" Margin="375,175,0,0" VerticalAlignment="Top"/>
+        <Label Content="Country" HorizontalAlignment="Center" Margin="0,206,0,0" VerticalAlignment="Top"/>
+        <Label Content="Postal Code" HorizontalAlignment="Left" Margin="375,237,0,0" VerticalAlignment="Top"/>
+        <Label Content="Address Type" HorizontalAlignment="Left" Margin="375,277,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt_addy1" HorizontalAlignment="Left" Margin="473,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_addy2" HorizontalAlignment="Left" Margin="473,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_city" HorizontalAlignment="Left" Margin="473,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_prov" HorizontalAlignment="Left" Margin="473,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_country" HorizontalAlignment="Left" Margin="473,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_postCode" HorizontalAlignment="Left" Margin="473,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btn_Add" Content="Add Customer" HorizontalAlignment="Left" Margin="39,380,0,0" VerticalAlignment="Top" Click="btn_Add_Click"/>
+        <Label x:Name="lbl_title_Copy" Content="ID#" HorizontalAlignment="Left" Margin="35,30,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt_ID" HorizontalAlignment="Left" Margin="152,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_addytype" HorizontalAlignment="Left" Margin="473,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
